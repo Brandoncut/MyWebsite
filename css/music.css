@@ -1,0 +1,113 @@
+/* music.css */
+
+/* 1. Custom background */
+body {
+    background-color: #c9def0; /* light blue */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #413e3e;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Header styling */
+h1, h2 {
+    color: #1a2a6c; /* dark blue */
+    text-align: center;
+}
+
+/* 3. Style for unordered list inside ordered list */
+.nested-list ol {
+    margin: 1rem 2rem;
+}
+
+.nested-list ul {
+    list-style-type: square;
+    margin-left: 2rem;
+    color: #444;
+}
+
+/* 4. Style for image section */
+.image-section img {
+    display: block;
+    max-width: 80%;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* 5. Anchor styling */
+.anchor-link {
+    display: block;
+    text-align: center;
+    margin: 30px 0;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1a2a6c;
+}
+
+/* 6. Div block styling */
+.div-block {
+    padding: 1.5rem;
+    margin: 1rem;
+    background-color: #e6f2ff;
+    border: 1px solid #cce0ff;
+    border-radius: 10px;
+}
+
+#video-section, #tableau-section, #app-section {
+    margin: 2rem auto;
+    max-width: 900px;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* 7. Link to go back */
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1rem;
+    text-decoration: underline;
+    color: #333;
+}
+
+/* 8. YouTube iframe responsive styling */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* 9. App section styling */
+#app-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff7e6;
+    border: 1px solid #ffd27f;
+}
+
+#app-section h3 {
+    color: #b36b00;
+}
+
+/* Add additional custom styling below */
+
+.media img {
+    height: 300px;
+    width: auto;
+    margin: 10px;
+}
